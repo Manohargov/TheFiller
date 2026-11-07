@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Filler</title>
+<link rel="icon" type="image/png" href="app-icon.png">
+<link rel="apple-touch-icon" href="app-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+  <header class="header">
+    <div class="brand">
+      <img class="brand-icon" src="app-icon.png" alt="The Filler" width="48" height="48">
+      <div>
+        <div class="brand-title">The Filler</div>
+        <div class="brand-sub">Windows dashboard edition &bull; Chrome / Edge, Firefox and WebKit</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="card control-card">
+      <h2 class="card-title">Automation</h2>
+
+      <!-- Browser -->
+      <div class="field-row">
+        <label class="field-label">Browser</label>
+        <select id="browserSelect" class="select">
+          <option value="chromium">Chrome / Edge (Chromium)</option>
+          <option value="firefox">Firefox</option>
+          <option value="safari">WebKit engine</option>
+        </select>
+        <div class="mode-hint" id="browserHint">Chromium supports connecting to an already-open browser.</div>
+      </div>
+
+      <!-- Mode -->
+      <div class="field-row">
+        <label class="field-label">Mode</label>
+        <div class="segmented">
+          <label class="seg">
+            <input type="radio" name="mode" value="launch" checked> Launch new browser
+          </label>
+          <label class="seg">
+            <input type="radio" name="mode" value="connect"> Connect to open browser
+          </label>
+        </div>
+        <div class="mode-hint" id="modeHint">Launches a fresh browser window to the URL below.</div>
+      </div>
+
+      <!-- URL (launch mode) -->
+      <div class="url-row" id="urlRow">
+        <label class="url-label">Application URL</label>
+        <input type="url" id="urlInput" placeholder="https://company.com/careers/apply" spellcheck="false">
+      </div>
+
+      <!-- CDP / profile (connect mode) -->
+      <div class="cdp-row" id="cdpRow" style="display:none;">
+        <label class="url-label">Remote debugging URL</label>
+        <div class="input-group">
+          <input type="text" id="cdpUrlInput" value="http://127.0.0.1:9222" placeholder="http://127.0.0.1:9222" spellcheck="false">
+          <button class="btn btn-small" id="checkCdp">Check</button>
+        </div>
+        <div class="cdp-hint">Launch Chrome/Edge with:<br><code>--remote-debugging-port=9222</code><br>Then open your job tabs normally.</div>
+      </div>
+
+      <!-- User data dir (for Firefox profile reuse) -->
+      <div class="field-row" id="profileDirRow" style="display:none;">
+        <label class="url-label">Profile folder (optional)</label>
+        <div class="input-group">
+          <input type="text" id="profileDirInput" placeholder="/Users/you/Library/Application Support/Firefox/Profiles/xxxx.default-release" spellcheck="false">
+        </div>
+        <div class="cdp-hint">Reuses your real browser profile (cookies, logins). Leave blank for a fresh profile.</div>
+      </div>
+
+      <div class="options">
+        <label class="checkbox">
+          <input type="checkbox" id="applyCheck"> Apply autofill (fill fields)
+        </label>
+        <label class="checkbox">
+          <input type="checkbox" id="headedCheck" checked> Show browser window
+        </label>
+      </div>
+
+      <div class="toggle-wrap">
+        <div class="toggle-label">Status <span id="statusChip">Idle</span></div>
+        <button class="toggle" id="toggleBtn" aria-pressed="false">
+          <span class="toggle-inner"></span>
+          <span class="toggle-text" id="toggleText">OFF</span>
+        </button>
+      </div>
+      <div class="status-pill" id="statusPill">Stopped</div>
+    </section>
+
+    <section class="card logs-card">
+      <div class="card-head">
+        <h2 class="card-title">Activity Log</h2>
+        <button class="btn-small" id="clearLogs">Clear</button>
+      </div>
+      <div id="logContainer" class="log-container"></div>
+    </section>
+
+    <section class="card profile-card">
+      <h2 class="card-title">Candidate Profile (from CV)</h2>
+      <p class="profile-hint">Parsed from your CV. Edit any field &mdash; these values are mapped to form questions automatically.</p>
+      <textarea id="profileText" placeholder="Loading profile..."></textarea>
+      <div class="profile-actions">
+        <button class="btn" id="loadProfile">Reload</button>
+        <button class="btn btn-primary" id="saveProfile">Save</button>
+      </div>
+      <div class="profile-hint resume-hint">Resume: <code>resumes/resume.pdf</code> (attach manually when asked).</div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>The app reads fields from the open tab and fills them &mdash; it never clicks Submit. You review and submit manually.</div>
+    <div class="footer-version">v2.0.0 &nbsp;•&nbsp; Multi-browser &nbsp;•&nbsp; macOS + Windows</div>
+  </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

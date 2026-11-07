@@ -1,0 +1,51 @@
+{
+  "personal": {
+    "first_name": "Alex",
+    "last_name": "E",
+    "full_name": "Alex Example",
+    "email": "alex@example.com",
+    "phone": "+91 9000000000",
+    "location": "Example City, India",
+    "linkedin": "https://www.linkedin.com/in/example",
+    "github": "https://github.com/example",
+    "portfolio": "https://example.com",
+    "date_of_birth": "",
+    "languages": [
+      "Tamil",
+      "English"
+    ],
+    "city": "Example City",
+    "country": "India",
+    "address": "123 Example Street",
+    "address_line2": "",
+    "state": "Example State",
+    "postal_code": "123456",
+    "country_code": "IN"
+  },
+  "professional": {
+    "current_title": "Program Manager",
+    "years_experience": "23+",
+    "notice_period": "",
+    "current_company": "Example Company",
+    "expected_salary": "",
+    "skills": [
+      "Python",
+      "Program Management"
+    ],
+    "summary": "Over 23+ years of experience in engineering and program management."
+  },
+  "education": [],
+  "work_authorization": {
+    "requires_sponsorship": "",
+    "authorized_to_work": ""
+  },
+  "custom_answers": {
+    "why_this_company": "",
+    "why_this_role": ""
+  },
+  "resume_path": "resumes/resume.pdf",
+  "apply_on_fill": false,
+  "headed_browser": true,
+  "application_source": "LinkedIn",
+  "saved_answers": []
+}

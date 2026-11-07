@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+profile.json
+.env
+.DS_Store
+resumes/*.pdf
+build/
+dist/
+*.spec
+drivers/__pycache__/

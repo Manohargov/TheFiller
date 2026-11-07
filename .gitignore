@@ -1,0 +1,37 @@
+# Personal data and secrets
+local/
+profile.json
+profile-before-import.json
+profile.*.json
+!profile.example.json
+!tests/fixtures/profile.json
+resumes/
+*.pdf
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.key
+# Build and test output
+work/
+build/
+dist/
+releases/macos/*
+releases/windows/*
+!releases/macos/README.md
+!releases/windows/README.md
+*.dmg
+*.exe
+*.app/
+*.zip
+*.spec
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+coverage/
+test-results/
+playwright-report/
