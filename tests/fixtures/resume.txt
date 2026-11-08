@@ -1,1 +1,0 @@
-Synthetic resume fixture; tests generate a minimal PDF in memory.
