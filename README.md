@@ -18,6 +18,7 @@ Fill job forms from your saved profile — *without* ever clicking **Next**, **S
 
 <br>
 
+**[📣 Meet Filler](#-meet-filler--the-one-click-job-application-assistant)** ·
 **[🚀 Quick Start](#-quick-start)** ·
 **[⬇️ Install macOS](#-macos-installation)** ·
 **[⬇️ Install Windows](#-windows-installation)** ·
@@ -25,6 +26,54 @@ Fill job forms from your saved profile — *without* ever clicking **Next**, **S
 **[🧪 Tests](#-tests)** ·
 **[📦 Build](#-build-from-source)** ·
 **[🔒 Privacy](#-privacy--limitations)**
+
+</div>
+
+---
+
+## 📣 Meet Filler — The One-Click Job Application Assistant
+
+<div align="center">
+
+**We've all been there.** You find a great job opening — only to spend the next **20 minutes** manually re-entering your work history into a slow company web portal.
+
+It's exhausting. It leads to **job-search burnout**, and it lowers the number of applications you can actually send out.
+
+**That's why we built Filler.**
+
+</div>
+
+Floating right on your browser window, **Filler detects application forms instantly.** Place your cursor, click the app, and watch as it:
+
+<table>
+<tr>
+<td width="50%">
+
+### ⚡ What happens when you click
+- 🖱️ **Detects** the application form the moment it appears
+- ⚡ **Auto-fills** every personal and professional detail — accurately
+- 📄 **Attaches** your CV and cover letter automatically
+- ⌨️ **Eliminates** repetitive typing so you can focus on finding the right role
+
+</td>
+<td width="50%">
+
+### 🎯 The result
+- 📈 **Boost your application output** — more shots on goal, less fatigue
+- ⏱️ **Reclaim 20 minutes** per application
+- 🧠 **Stay sharp** for the parts that matter — tailoring and interviews
+- 🚀 **Land your dream job faster**
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+> ### 🛑 Stop letting tedious forms slow down your career.
+> **Boost your application output and land your dream job faster with Filler.**
+
+[⬇️ Install now](#-quick-start) · [🏛️ See how it works](#-architecture)
 
 </div>
 
