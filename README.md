@@ -33,57 +33,11 @@ Fill job forms from your saved profile — *without* ever clicking **Next**, **S
 
 ## 📣 Stop Wasting Hours on Job Forms — Let Filler Do the Heavy Lifting
 
-<div align="center">
+Tired of filling out the exact same form fields on every company portal? Filler automates your job application process in a single click.
 
-**Tired of filling out the exact same form fields on every company portal?**
-Filler automates your job application process **in a single click.**
+How it works: open any job application page, click Filler, and watch it instantly populate every field, attach your tailored CV, and upload your cover letter.
 
-</div>
-
-### ⚙️ How it works
-
-<table>
-<tr>
-<td width="33%">
-
-#### 1️⃣ Open
-Launch **any job application page** — Filler detects the form instantly.
-
-</td>
-<td width="33%">
-
-#### 2️⃣ Click
-Click **Filler.** That's the whole workflow.
-
-</td>
-<td width="33%">
-
-#### 3️⃣ Watch
-Every field populates, your **tailored CV attaches**, your **cover letter uploads**.
-
-</td>
-</tr>
-</table>
-
-```text
-📄 Open any job application page
-        │
-        ▼
-🖱️  Click Filler
-        │
-        ▼
-✨ Instantly populate every field  →  📎 Attach tailored CV  →  📨 Upload cover letter
-```
-
-<div align="center">
-
-> ### 🚀 Maximize your applications, beat application fatigue, and secure more interviews in less time.
->
-> **Try Filler today and accelerate your job search!**
-
-[⬇️ Install now](#-quick-start) · [🏛️ See how it works](#-architecture)
-
-</div>
+Maximize your applications, beat application fatigue, and secure more interviews in less time. Try Filler today and accelerate your job search!
 
 ---
 
