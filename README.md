@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="native/AppIcon-3D.png" width="180" alt="The Filler app icon" />
+<p align="center"><img src="native/AppIcon-3D.png" width="160" alt="The Filler app icon"></p>
 
 # ✨ The Filler
 
@@ -551,8 +551,6 @@ No license has been granted yet. **Add an appropriate license before public redi
 <div align="center">
 
 **✨ The Filler** — *fill faster, submit yourself, keep your data local.*
-
-<img src="native/AppIcon-3D.png" width="72" alt="The Filler">
 
 [⬆️ Back to top](#-the-filler)
 
